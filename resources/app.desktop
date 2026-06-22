@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Cosmic Cast Ext
+Comment=Cast to Miracast wireless displays from the COSMIC Panel
+Type=Application
+Icon=io.github.bigolpants.CosmicCastExt
+Exec=cosmic-cast-ext %F
+Terminal=false
+StartupNotify=true
+Categories=Utility;
+Keywords=COSMIC;Miracast;Wireless Display;Cast
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto
+MimeType=

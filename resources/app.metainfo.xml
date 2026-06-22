@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.bigolpants.CosmicCastExt</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MPL-2.0</project_license>
+  <developer id="io.github.bigolpants">
+    <name>big-ol-pants</name>
+  </developer>
+  <name>Cosmic Cast Ext</name>
+  <summary>Cast to Miracast wireless displays from the COSMIC Panel</summary>
+  <description>
+    <p>
+      Cosmic Cast Ext is a COSMIC Panel applet for opening and monitoring a
+      Miracast wireless display sender. It detects GNOME Network Displays from
+      the system or Flatpak and provides quick controls for opening the display
+      picker, refreshing runtime status, and closing the casting helper.
+    </p>
+  </description>
+  <icon type="remote" width="64" height="64" scale="1">
+    https://github.com/big-ol-pants/cosmic-cast-ext/raw/main/resources/icons/hicolor/scalable/apps/icon.svg
+  </icon>
+  <url type="homepage">https://github.com/big-ol-pants/cosmic-cast-ext</url>
+  <url type="vcs-browser">https://github.com/big-ol-pants/cosmic-cast-ext</url>
+  <launchable type="desktop-id">io.github.bigolpants.CosmicCastExt.desktop</launchable>
+  <provides>
+    <id>com.system76.CosmicApplet</id>
+    <binary>cosmic-cast-ext</binary>
+  </provides>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>COSMIC</keyword>
+    <keyword>Miracast</keyword>
+    <keyword>Wireless Display</keyword>
+    <keyword>Cast</keyword>
+  </keywords>
+  <content_rating type="oars-1.1" />
+</component>
